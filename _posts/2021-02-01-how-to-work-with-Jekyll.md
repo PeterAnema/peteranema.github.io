@@ -1,10 +1,10 @@
- # How to work with ... Jekyll
+# How to work with ... Jekyll
  
- ## Links
+## Links
  
- * [Jekyll Home](https://jekyllrb.com)
+* [Jekyll Home](https://jekyllrb.com)
  
- ## Code Snippit Highlighting
+## Code Snippit Highlighting
 
 {% highlight python %}
 def do_something():
