@@ -1,3 +1,9 @@
+---
+layout: post
+title: "How to work with ... Jekyll"
+date: 2021-02-01
+---
+
 # How to work with ... Jekyll
 
 ## Resources
