@@ -12,9 +12,8 @@ date: 2021-02-02
 
 ## Installation
 
-1. With Homebrew:
-  { $ brew install --cask flutter }
-2. Install dependencies: { $ flutter doctor }.
+1. With Homebrew: `$ brew install --cask flutter`
+2. Install dependencies: `$ flutter doctor`.
   Typically: Dart, xcode, and IDE plugins.
 3. Follow detected decrepencies if required.
   I installed the **Flutter** extension in Visual Studio Code.
