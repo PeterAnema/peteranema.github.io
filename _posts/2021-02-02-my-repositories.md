@@ -4,6 +4,12 @@ title: "A List of My Repositories"
 date: 2021-02-01
 ---
 
+## List of my repositories:
+
+{% for repository in site.github.public_repositories %}
+  * [{{ repository.name }}]({{ repository.html_url }})
+{% endfor %}
+
 ## List of my repositories as of 2021-02-02:
 
 * [dash-sample-apps](https://github.com/PeterAnema/dash-sample-apps)
