@@ -1,14 +1,27 @@
 ---
 layout: post
 title: "How to work with ... Jekyll"
+description: "Tips and tricks for working with Github Pages, Jekyll and Markdown"
 date: 2021-02-01
+category: Dev
+tags: [web, jekyll, markdown]
 ---
 
 # How to work with ... Jekyll
 
 ## Resources
 
+### GitHub Pages
+
+* <https://pages.github.com>
+
+### Jekyll
+
 * [Jekyll Home](https://jekyllrb.com)
+* [Jekyll Tags on Github Pages - Long Qian](http://longqian.me/2017/02/09/github-jekyll-tag/)
+
+### Markdown
+
 * [Markdown Guide](https://www.markdownguide.org/basic-syntax)
 * [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 

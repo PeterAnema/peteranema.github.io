@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Peter Anema, Launches Site"
+title: "Peter Anema's Github Pages Site & Blog"
+description: "My first Github Pages entry"
 date: 2021-02-01
+category: Dev
+tags: [github]
 ---
 
-Well. Finally got around to putting this website together. 
-
-Followed the intructions from: [Creating and Hosting a Personal Site on GitHub - JONATHAN MCGLONE](http://jmcglone.com/guides/github-pages/). Thanks Jonathan!
+Well. Finally got around to putting this website together and started blogging. 
 
 List of my repositories as of 2021-02-02:
 

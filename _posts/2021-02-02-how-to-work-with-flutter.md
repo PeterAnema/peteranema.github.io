@@ -1,7 +1,10 @@
 ---
 layout: post
 title: "How to work with ... Flutter"
+description: "Tips and tricks for working with Flutter"
 date: 2021-02-02
+category: Dev
+tags: [app, flutter, dart, android, ios]
 ---
 # How to work with ... Flutter
 
