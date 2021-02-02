@@ -2,9 +2,44 @@
 
 ## Resources
 
+* [Spring - Springboot](https://spring.io/projects/spring-boot)
+* [Springboot Initializr](https://start.spring.io)
+* [Spring Framework - Wikipedia EN](https://en.wikipedia.org/wiki/Spring_Framework)
+* [Spring Framework - Wikipedia NL](https://nl.wikipedia.org/wiki/Spring_Framework)
+* [A Comparison Between Spring and Spring Boot | Baeldung](https://www.baeldung.com/spring-vs-spring-boot)
+* [Spring Boot Tutorial - Tutorialspoint](https://www.tutorialspoint.com/spring_boot/index.htm)
+* [Spring Boot Tutorial - HowToDoInJava](https://howtodoinjava.com/spring-boot-tutorials/)
+* [Spring Boot Tutorial - Java Guides](https://www.javaguides.net/p/spring-boot-tutorial.html)
+* [Learn Spring Boot Tutorial - javatpoint](https://www.javatpoint.com/spring-boot-tutorial)
+* [Why Spring Boot? - DZone Java](https://dzone.com/articles/why-springboot)
+* [Learn Spring Boot | Baeldung](https://www.baeldung.com/spring-boot)
+* [Spring Boot - Help | IntelliJ IDEA](https://www.jetbrains.com/help/idea/spring-boot.html)
 
-## My repositories
+## My related repositories
 
+* [springboot-01-hello-world](https://api.github.com/repos/PeterAnema/springboot-01-hello-world)
+* [springboot-02-restful-controller](https://api.github.com/repos/PeterAnema/springboot-02-restful-controller)
+* [springboot-03-crud-controller](https://api.github.com/repos/PeterAnema/springboot-03-crud-controller)
+* [springboot-04-spring-data-jdbc](https://api.github.com/repos/PeterAnema/springboot-04-spring-data-jdbc)
+* [springboot-05-spring-data-jpa-customers](https://api.github.com/repos/PeterAnema/springboot-05-spring-data-jpa-customers)
+* [springboot-06-demo-spring-jpa-clients](https://api.github.com/repos/PeterAnema/springboot-06-demo-spring-jpa-clients)
+* [springboot-09-spring-security](https://api.github.com/repos/PeterAnema/springboot-09-spring-security)
+* [springboot-10-spring-security](https://api.github.com/repos/PeterAnema/springboot-10-spring-security)
+* [springboot-11-security-with-custom-users-table](https://api.github.com/repos/PeterAnema/springboot-11-security-with-custom-users-table)
+* [springboot-12-security-with-users-table](https://api.github.com/repos/PeterAnema/springboot-12-security-with-users-table)
+* [springboot-13-security-with-user-entity](https://api.github.com/repos/PeterAnema/springboot-13-security-with-user-entity)
+* [springboot-14-security-with-user-service](https://api.github.com/repos/PeterAnema/springboot-14-security-with-user-service)
+* [springboot-15-security-with-jwt](https://api.github.com/repos/PeterAnema/springboot-15-security-with-jwt)
+* [springboot-20-spring-https](https://api.github.com/repos/PeterAnema/springboot-20-spring-https)
+* [springboot-25-file-upload-basic](https://api.github.com/repos/PeterAnema/springboot-25-file-upload-basic)
+* [springboot-26-file-upload](https://api.github.com/repos/PeterAnema/springboot-26-file-upload)
+* [springboot-30-spring-boot-starter-test-assertj](https://api.github.com/repos/PeterAnema/springboot-30-spring-boot-starter-test-assertj)
+* [springboot-31-spring-boot-starter-test-junit-jupiter](https://api.github.com/repos/PeterAnema/springboot-31-spring-boot-starter-test-junit-jupiter)
+* [springboot-40-many-to-many](https://api.github.com/repos/PeterAnema/springboot-40-many-to-many)
+* [springboot-42-many-to-many](https://api.github.com/repos/PeterAnema/springboot-42-many-to-many)
+* [springboot-43-many-to-many-with-fields](https://api.github.com/repos/PeterAnema/springboot-43-many-to-many-with-fields)
+* [springboot-50-student-course](https://api.github.com/repos/PeterAnema/springboot-50-student-course)
+* [springboot-51-books-api](https://api.github.com/repos/PeterAnema/springboot-51-books-api)
 
 ## Miscellaneous Comments and Snippets
 
