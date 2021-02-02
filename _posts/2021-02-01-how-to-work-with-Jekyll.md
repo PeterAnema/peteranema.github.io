@@ -7,8 +7,6 @@ category: Dev
 tags: [web, jekyll, markdown]
 ---
 
-# How to work with ... Jekyll
-
 ## Resources
 
 ### GitHub Pages

@@ -6,7 +6,6 @@ date: 2021-02-02
 category: Dev
 tags: [web, springboot, java]
 ---
-# How to work with ... Springboot
 
 ## Resources
 
