@@ -10,5 +10,5 @@ Jekyll has built in support for syntax highlighting of over 100 languages thanks
 
 {% highlight python linenos %}
 def do_something():
-  return 'Did it again!'
+  return 'Did it!'
 {% endhighlight %}
