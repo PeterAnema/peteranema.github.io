@@ -6,14 +6,14 @@
 * [Springboot Initializr](https://start.spring.io)
 * [Spring Framework - Wikipedia EN](https://en.wikipedia.org/wiki/Spring_Framework)
 * [Spring Framework - Wikipedia NL](https://nl.wikipedia.org/wiki/Spring_Framework)
-* [A Comparison Between Spring and Spring Boot | Baeldung](https://www.baeldung.com/spring-vs-spring-boot)
+* [A Comparison Between Spring and Spring Boot - Baeldung](https://www.baeldung.com/spring-vs-spring-boot)
 * [Spring Boot Tutorial - Tutorialspoint](https://www.tutorialspoint.com/spring_boot/index.htm)
 * [Spring Boot Tutorial - HowToDoInJava](https://howtodoinjava.com/spring-boot-tutorials/)
 * [Spring Boot Tutorial - Java Guides](https://www.javaguides.net/p/spring-boot-tutorial.html)
 * [Learn Spring Boot Tutorial - javatpoint](https://www.javatpoint.com/spring-boot-tutorial)
 * [Why Spring Boot? - DZone Java](https://dzone.com/articles/why-springboot)
-* [Learn Spring Boot | Baeldung](https://www.baeldung.com/spring-boot)
-* [Spring Boot - Help | IntelliJ IDEA](https://www.jetbrains.com/help/idea/spring-boot.html)
+* [Learn Spring Boot - Baeldung](https://www.baeldung.com/spring-boot)
+* [Spring Boot - Help - IntelliJ IDEA](https://www.jetbrains.com/help/idea/spring-boot.html)
 
 ## My related repositories
 
