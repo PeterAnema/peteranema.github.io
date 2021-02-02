@@ -10,7 +10,9 @@
 
 ### H2 in memory database
 
-When https is enabled frames are disabled. This causes the H2 console to stop working. So you need to enable frames again to get this working. Add the following line to the **configure** method in the **SecurityConfig** class.
+When https is enabled frames are disabled. This causes the H2 console to stop working. So you need to enable frames again to get this working. 
+
+Add the following line to the **configure** method in the **SecurityConfig** class.
 
 {% highlight java %}
 @Configuration
@@ -30,3 +32,13 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 
 }
 {% endhighlight %}
+
+What is fenced code block? 
+
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
