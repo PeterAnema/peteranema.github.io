@@ -7,6 +7,8 @@ date: 2021-02-02
 
 ## Resources
 
+### Springboot
+
 * [Spring - Springboot](https://spring.io/projects/spring-boot)
 * [Springboot Initializr](https://start.spring.io)
 * [Spring Framework - Wikipedia EN](https://en.wikipedia.org/wiki/Spring_Framework)
@@ -19,6 +21,16 @@ date: 2021-02-02
 * [Why Spring Boot? - DZone Java](https://dzone.com/articles/why-springboot)
 * [Learn Spring Boot - Baeldung](https://www.baeldung.com/spring-boot)
 * [Spring Boot - Help - IntelliJ IDEA](https://www.jetbrains.com/help/idea/spring-boot.html)
+* [Springboot- ZetCode](http://zetcode.com/all/#springboot)
+
+### RESTful API
+
+* <https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/>
+* <https://dzone.com/articles/top-rest-api-best-practices>
+* <https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design>
+* <https://github.com/microsoft/api-guidelines>
+* <https://mathieu.fenniak.net/the-api-checklist>
+* <https://www.restapitutorial.com/httpstatuscodes.html>
 
 ## My related repositories
 

@@ -9,6 +9,7 @@ date: 2021-02-01
 ## Resources
 
 * [Jekyll Home](https://jekyllrb.com)
+* [Markdown Guide](https://www.markdownguide.org/basic-syntax)
 * [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 
 ## Markdown Fenced Code Block
