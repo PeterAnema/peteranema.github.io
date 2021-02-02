@@ -6,7 +6,7 @@ date: 2021-02-01
 
 Well. Finally got around to putting this website together. 
 
-Followed the intructions from: (http://jmcglone.com/guides/github-pages/). Thanks Jonathan!
+Followed the intructions from: [Creating and Hosting a Personal Site on GitHub - JONATHAN MCGLONE](http://jmcglone.com/guides/github-pages/). Thanks Jonathan!
 
 List of my repositories as of 2021-02-02:
 
@@ -39,7 +39,7 @@ List of my repositories as of 2021-02-02:
 * [springboot-50-student-course](https://github.com/PeterAnema/springboot-50-student-course)
 * [springboot-51-books-api](https://github.com/PeterAnema/springboot-51-books-api)
 
-This list was generated from the GitHub API (https://docs.github.com/en/rest) with this Python script:
+This list was generated from the GitHub API [GitHub REST API](https://docs.github.com/en/rest) with this Python script:
 
 {% highlight python linenos %}
 import requests
