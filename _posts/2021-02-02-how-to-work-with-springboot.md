@@ -32,13 +32,3 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 
 }
 {% endhighlight %}
-
-What is fenced code block? 
-
-```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
