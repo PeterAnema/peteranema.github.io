@@ -53,5 +53,5 @@ r = requests.get(url)
 if r.status_code == 200:
 
     for repo in sorted(r.json(), key = lambda repo: repo['name']):
-        print(f'* [{repo["name"]}]({repo["url"]})')
+        print(f'* [{repo["name"]}]({repo["html_url"]})')
 {% endhighlight %}
