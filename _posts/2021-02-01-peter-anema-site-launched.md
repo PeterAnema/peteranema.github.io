@@ -1,10 +1,6 @@
 ---
 layout: post
 title: "Peter Anema's Github Pages Site & Blog"
-description: "My first Github Pages entry"
-date: 2021-02-01
-category: Dev
-tags: [github]
 ---
 
 Well. Finally got around to putting this website together and started blogging. 
