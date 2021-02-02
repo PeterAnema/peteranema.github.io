@@ -12,6 +12,7 @@ tags: [web, jekyll, markdown]
 ### GitHub Pages
 
 * <https://pages.github.com>
+* <http://jmcglone.com/guides/github-pages/>
 
 ### Jekyll
 
