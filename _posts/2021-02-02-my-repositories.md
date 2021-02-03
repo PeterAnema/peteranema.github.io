@@ -6,16 +6,18 @@ date: 2021-02-01
 
 ## List of my repositories [{{site.github.public_repositories.size}}]:
 
-{% for repository in site.github.public_repositories %}
-  * [{{ repository.name }}]({{ repository.html_url }}){% endfor %}
-
+{%- for repository in site.github.public_repositories -%}
+  * [{{ repository.name }}]({{ repository.html_url }})
+{%- endfor -%}
 
 ## Jekyll and Liquid
 
 This list was initially generated from the GitHub API
 
-* [Jekyll & Liquid Cheatsheet]<https://gist.github.com/magicznyleszek/9803727>
-
+* [Jekyll & Liquid Cheatsheet](https://gist.github.com/magicznyleszek/9803727)
+* [Getting Started with Jekyll and GitHub Pages](https://www.aleksandrhovhannisyan.com/blog/getting-started-with-jekyll-and-github-pages/#dr-jekyll-and-mr-liquid)
+* [Liquid](https://shopify.github.io/liquid/basics/introduction/)
+* [Jekyll Default Variables](https://it.knightnet.org.uk/kb/ghjekyll/standard-attributes/)
 
 ## Python script
 
