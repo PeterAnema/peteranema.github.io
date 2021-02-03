@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "How to work with ... Jekyll"
-description: "Tips and tricks for working with Github Pages, Jekyll and Markdown"
+title: "How to work with ... Github Pages"
+description: "Tips and tricks for working with Github Pages, Markdown, Jekyll and Liquid"
 date: 2021-02-01
 category: Dev
-tags: [web, jekyll, markdown]
+tags: [Github, Markdown, Jekyll, Liquid]
 ---
 
 ## Resources
@@ -23,6 +23,14 @@ tags: [web, jekyll, markdown]
 
 * [Markdown Guide](https://www.markdownguide.org/basic-syntax)
 * [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+
+### Liquid
+* [Jekyll & Liquid Cheatsheet](https://gist.github.com/magicznyleszek/9803727)
+* [Getting Started with Jekyll and GitHub Pages](https://www.aleksandrhovhannisyan.com/blog/getting-started-with-jekyll-and-github-pages/#dr-jekyll-and-mr-liquid)
+* [Liquid](https://shopify.github.io/liquid/basics/introduction/)
+* [Jekyll Default Variables](https://it.knightnet.org.uk/kb/ghjekyll/standard-attributes/)
+
+
 
 ## Markdown Fenced Code Block
 
