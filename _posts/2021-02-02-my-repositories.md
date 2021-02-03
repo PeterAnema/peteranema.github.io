@@ -4,14 +4,22 @@ title: "A List of My Repositories"
 date: 2021-02-01
 ---
 
-## List of my repositories [{{site.github.public_repositories.count}}]:
+## List of my repositories [{{site.github.public_repositories.size}}]:
 
 {% for repository in site.github.public_repositories %}
   * [{{ repository.name }}]({{ repository.html_url }}){% endfor %}
 
+
+## Jekyll and Liquid
+
+This list was initially generated from the GitHub API
+
+* [Jekyll & Liquid Cheatsheet]<https://gist.github.com/magicznyleszek/9803727>
+
+
 ## Python script
 
-This list was generated from the GitHub API [GitHub REST API](https://docs.github.com/en/rest) with this Python script:
+This list was initially generated from the GitHub API [GitHub REST API](https://docs.github.com/en/rest) with this Python script:
 
 {% highlight python linenos %}
 import requests
