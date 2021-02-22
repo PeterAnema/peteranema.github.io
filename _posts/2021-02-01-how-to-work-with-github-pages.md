@@ -25,12 +25,10 @@ tags: [Github, Markdown, Jekyll, Liquid]
 * [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 
 ### Liquid
+* [Shopify - Liquid](https://shopify.github.io/liquid/)
 * [Jekyll & Liquid Cheatsheet](https://gist.github.com/magicznyleszek/9803727)
 * [Getting Started with Jekyll and GitHub Pages](https://www.aleksandrhovhannisyan.com/blog/getting-started-with-jekyll-and-github-pages/#dr-jekyll-and-mr-liquid)
-* [Liquid](https://shopify.github.io/liquid/basics/introduction/)
 * [Jekyll Default Variables](https://it.knightnet.org.uk/kb/ghjekyll/standard-attributes/)
-
-
 
 ## Markdown Fenced Code Block
 
