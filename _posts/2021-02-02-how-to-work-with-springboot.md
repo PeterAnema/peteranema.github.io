@@ -42,7 +42,6 @@ tags: [Web, Springboot, Java]
 {% endif %}
 {%- endfor -%}
 
-.
 ## Miscellaneous Comments and Snippets
 
 ### H2 in memory database in combination with https

@@ -1,3 +1,12 @@
+---
+layout: post
+title: "How to work with ... Anaconda"
+description: "Tips and tricks for working with Anaconda"
+date: 2021-02-22
+category: Dev
+tags: [Python, Anaconda]
+---
+
 ## Anaconda
 
 ## My shortlist
