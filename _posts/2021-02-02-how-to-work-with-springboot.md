@@ -41,7 +41,7 @@ tags: [Web, Springboot, Java]
 * [{{ repository.name }}]({{ repository.html_url }})
 {%- endif -%}
 {%- endfor -%}
-
+{% %}
 
 ## Miscellaneous Comments and Snippets
 
