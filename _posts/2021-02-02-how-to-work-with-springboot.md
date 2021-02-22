@@ -42,9 +42,10 @@ tags: [Web, Springboot, Java]
 {%- endif -%}
 {%- endfor -%}
 
+
 ## Miscellaneous Comments and Snippets
 
-### H2 in memory database
+### H2 in memory database in combination with https
 
 When https is enabled frames are disabled. This causes the H2 console to stop working. So you need to enable frames again to get this working. 
 
