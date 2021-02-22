@@ -36,11 +36,12 @@ tags: [Web, Springboot, Java]
 
 ## My related repositories
 
-{% for repository in site.github.public_repositories %}
-    {% if repository.name == "springboot-01-hello-world" %}
-        * [{{ repository.name }}]({{ repository.html_url }})
-    {%- endif -%}
-{%- endfor -%}
+{%- for repository in site.github.public_repositories -%}
+{%- assign words = site.github.public_repositories | split: "-" -%}
+{%- if words.first == "springboot" -%}
+* [{{ repository.name }}] ({{ repository.html_url }})
+{%- endif -%}
+{% endfor %}
 
 * [springboot-01-hello-world](https://github.com/PeterAnema/springboot-01-hello-world)
 * [springboot-02-restful-controller](https://github.com/PeterAnema/springboot-02-restful-controller)
