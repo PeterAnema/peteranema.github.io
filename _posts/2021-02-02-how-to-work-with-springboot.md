@@ -37,8 +37,7 @@ tags: [Web, Springboot, Java]
 ## My related repositories
 
 {%- for repository in site.github.public_repositories -%}
-{%- assign words = repository.name | split: "-" -%}
-{%- if words.first == "springboot" -%}
+{%- if repository.name | split: "-" | first == "springboot" -%}
 * [{{ repository.name }}]({{ repository.html_url }})
 {%- endif -%}
 {% endfor %}
