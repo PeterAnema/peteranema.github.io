@@ -40,7 +40,13 @@ tags: [Web, Springboot, Java]
 {% if repository.name | split: "-" | first == "springboot" %}
 * [{{ repository.name }}]({{ repository.html_url }})
 {%- endif -%}
-{%- endfor -%}
+{% endfor %}
+
+{% for repository in site.github.public_repositories %}
+{% if repository.topics contains "springboot" %}
+* [{{ repository.name }}]({{ repository.html_url }})
+{%- endif -%}
+{% endfor %}
 
 
 ## Miscellaneous Comments and Snippets
