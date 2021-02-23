@@ -36,16 +36,16 @@ tags: [Web, Springboot, Java]
 
 ## My related repositories
 
-{% for repository in site.github.public_repositories %}
-{% if repository.name | split: "-" | first == "springboot" %}
+{%- for repository in site.github.public_repositories -%}
+{%- if repository.name | split: "-" | first == "springboot" -%}
 * [{{ repository.name }}]({{ repository.html_url }})
-{%- endif -%}
+{% endif %}
 {% endfor %}
 
-{% for repository in site.github.public_repositories %}
-{% if repository.topics contains "springboot" %}
+{%- for repository in site.github.public_repositories -%}
+{%- if repository.topics contains "springboot" -%}
 * [{{ repository.name }}]({{ repository.html_url }})
-{%- endif -%}
+{% endif %}
 {% endfor %}
 
 
