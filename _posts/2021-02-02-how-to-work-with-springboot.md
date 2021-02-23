@@ -42,6 +42,10 @@ tags: [Web, Springboot, Java]
 {%- endif -%}
 {%- endfor -%}
 
+{% for repository in site.github.public_repositories | where_exp:"repository", "repository.name contains 'springboot'" %}
+ * [{{ repository.name }}]({{ repository.html_url }})
+{%- endfor -%}
+
 
 ## Miscellaneous Comments and Snippets
 
