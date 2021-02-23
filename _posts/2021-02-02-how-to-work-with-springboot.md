@@ -38,10 +38,9 @@ tags: [Web, Springboot, Java]
 
 {%- for repository in site.github.public_repositories -%}
 {% if repository.name contains "springboot" or repository.topics contains "springboot" %}
- * [{{ repository.name }}]({{ repository.html_url }})
+  * [{{ repository.name }}]({{ repository.html_url }})
 {%- endif -%}
 {%- endfor %}
-
 
 ## Miscellaneous Comments and Snippets
 
