@@ -37,10 +37,11 @@ tags: [Web, Springboot, Java]
 ## My related repositories
 
 {% for repository in site.github.public_repositories %}
-{% if repository.topics contains "springboot" %}
+{% if repository.name | split: "-" | first == "springboot" %}
 * [{{ repository.name }}]({{ repository.html_url }})
 {%- endif -%}
 {%- endfor -%}
+
 
 ## Miscellaneous Comments and Snippets
 
