@@ -119,3 +119,78 @@ public class Author {
 #### Links
 * https://www.baeldung.com/jackson-bidirectional-relationships-and-infinite-recursion
 * https://hellokoding.com/handling-circular-reference-of-jpa-hibernate-bidirectional-entity-relationships-with-jackson-jsonignoreproperties/
+
+
+## Cross-Origin Resource Sharing (CORS)
+
+In many cases, the host that serves the JS (e.g., example.com) is different from the host that serves the data (e.g., api.example.com). In such a case, CORS enables cross-domain communication.
+
+
+For example, your web application is running on 8080 port and by using JavaScript you are trying to consuming RESTful web services from 9090 port. Under such situations, you will face the Cross-Origin Resource Sharing security issue on your web browsers.
+
+Spring provides first-class support for CORS, offering an easy and powerful way of configuring it in any Spring or Spring Boot web application.
+
+Two requirements are needed to handle this issue
+* RESTful web services should support the Cross-Origin Resource Sharing.
+* RESTful web service application should allow accessing the API(s) from the 8080 port.
+
+### Set the origins for RESTful web service with the @CrossOrigin annotation.
+
+```
+@CrossOrigin(origins = ..., 
+             methods = ..., 
+             allowedHeaders = ..., 
+             exposedHeaders = ..., 
+             allowCredentials = ..., 
+             maxAge = ...)
+```
+
+per controller method by:
+
+{% highlight java %}
+@RequestMapping(value = "/products")    # no value specifies all origins allowed
+@CrossOrigin(origins = "http://localhost:8080")
+public ResponseEntity<Object> getProduct() {
+   return null;
+}
+{% endhighlight %}
+
+or per controller by:
+
+{% highlight java %}
+@CrossOrigin(origins = "http://example.com", maxAge = 3600)
+{% endhighlight %}
+
+or globally
+
+{% highlight java %}
+@Configuration
+public class AppConf implements WebMvcConfigurer {
+   return new WebMvcConfigurerAdapter() {
+      @Override
+      public void addCorsMappings(CorsRegistry registry) {
+         registry.addMapping("/products").allowedOrigins("http://localhost:9000");
+      }    
+   };
+}
+{% endhighlight %}
+
+### In combination with our Spring Security.
+
+If we use the Spring Security in our project, we must take an extra step to make sure it plays well with CORS. It's because CORS must be processed first. Otherwise, Spring Security will reject the request before it reaches Spring MVC.
+
+{% highlight java %}
+@EnableWebSecurity
+public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
+    @Override
+    protected void configure(HttpSecurity http) throws Exception {
+        http.cors().and()...
+    }
+}
+{% endhighlight %}
+
+### Links
+* https://www.tutorialspoint.com/spring_boot/spring_boot_cors_support.htm
+* https://www.baeldung.com/spring-cors
+* https://zetcode.com/springboot/cors/
+* https://www.javadevjournal.com/spring-boot/spring-boot-cors/
