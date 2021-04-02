@@ -79,7 +79,7 @@ Annotations:
 * @JsonBackReference
 * @JsonManagedReference
 
-'''java
+{% highlight java %}
 @Entity
 public class Book{  
     @Id
@@ -113,7 +113,7 @@ public class Author {
 
     ...
 }
-'''
+{% endhighlight %}
 
 
 #### Links
