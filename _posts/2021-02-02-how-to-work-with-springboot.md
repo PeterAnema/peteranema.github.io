@@ -86,8 +86,10 @@ public class Book{
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
+    @Column
     private String title;
 
+    @Column
     private String description;
 
     @ManyToMany(cascade = CascadeType.ALL)
@@ -96,8 +98,6 @@ public class Book{
                inverseJoinColumns = @JoinColumn(name = "author_id", referencedColumnName = "id"))
     @JsonIgnoreProperties("books")
     private Set<Author> authors;
-
-    ...
 }
 
 @Entity
@@ -106,13 +106,12 @@ public class Author {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
+    @Column
     private String name;
 
     @ManyToMany(mappedBy = "authors")
     @JsonIgnoreProperties("authors")
     private Set<Book> books;
-
-    ...
 }
 {% endhighlight %}
 
