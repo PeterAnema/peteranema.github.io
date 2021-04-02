@@ -68,3 +68,54 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 
 }
 {% endhighlight %}
+
+### Jackson helper is used to serialize and deserialize objects to JSON
+
+Annotations:
+* @JsonIgnore
+* @JsonIgnoreProperties
+* @JsonView
+* @JsonProperty
+* @JsonBackReference
+* @JsonManagedReference
+
+'''java
+@Entity
+public class Book{  
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+
+    private String title;
+
+    private String description;
+
+    @ManyToMany(cascade = CascadeType.ALL)
+    @JoinTable(name = "book_author", 
+               joinColumns = @JoinColumn(name = "book_id", referencedColumnName = "id"), inverseJoinColumns = @JoinColumn(name = "author_id", referencedColumnName = "id"))
+    @JsonIgnoreProperties("books")
+    private Set<Author> authors;
+
+    ...
+}
+
+@Entity
+public class Author {  
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+
+    private String name;
+
+    @ManyToMany(mappedBy = "authors")
+    @JsonIgnoreProperties("authors")
+    private Set<Book> books;
+
+    ...
+}
+'''
+
+
+#### Links
+* https://www.baeldung.com/jackson-bidirectional-relationships-and-infinite-recursion
+* https://hellokoding.com/handling-circular-reference-of-jpa-hibernate-bidirectional-entity-relationships-with-jackson-jsonignoreproperties/

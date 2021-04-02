@@ -13,6 +13,7 @@ tags: [Github, Markdown, Jekyll, Liquid]
 
 * <https://pages.github.com>
 * <http://jmcglone.com/guides/github-pages/>
+* <https://docs.github.com/en/rest>
 
 ### Jekyll
 
