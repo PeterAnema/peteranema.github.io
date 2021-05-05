@@ -136,16 +136,16 @@ Two requirements are needed to handle this issue
 
 ### Set the origins for RESTful web service with the @CrossOrigin annotation.
 
-```
+{% highlight java %}
 @CrossOrigin(origins = ..., 
              methods = ..., 
              allowedHeaders = ..., 
              exposedHeaders = ..., 
              allowCredentials = ..., 
              maxAge = ...)
-```
+{% endhighlight %}
 
-per controller method by:
+Per controller method by:
 
 {% highlight java %}
 @RequestMapping(value = "/products")    # no value specifies all origins allowed
@@ -155,13 +155,13 @@ public ResponseEntity<Object> getProduct() {
 }
 {% endhighlight %}
 
-or per controller by:
+Or per controller by:
 
 {% highlight java %}
 @CrossOrigin(origins = "http://example.com", maxAge = 3600)
 {% endhighlight %}
 
-or globally
+Or globally
 
 {% highlight java %}
 @Configuration
@@ -194,3 +194,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 * https://www.baeldung.com/spring-cors
 * https://zetcode.com/springboot/cors/
 * https://www.javadevjournal.com/spring-boot/spring-boot-cors/
+* https://howtodoinjava.com/spring5/webmvc/spring-mvc-cors-configuration/#global-cors
+* https://medium.com/@dtkatz/3-ways-to-fix-the-cors-error-and-how-access-control-allow-origin-works-d97d55946d9
+* https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#mvc-cors
