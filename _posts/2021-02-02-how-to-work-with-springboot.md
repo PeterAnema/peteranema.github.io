@@ -27,6 +27,7 @@ tags: [Web, Springboot, Java]
 
 ### RESTful API
 
+* <https://restfulapi.net/resource-naming/>
 * <https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/>
 * <https://dzone.com/articles/top-rest-api-best-practices>
 * <https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design>
@@ -197,3 +198,10 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 * https://howtodoinjava.com/spring5/webmvc/spring-mvc-cors-configuration/#global-cors
 * https://medium.com/@dtkatz/3-ways-to-fix-the-cors-error-and-how-access-control-allow-origin-works-d97d55946d9
 * https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#mvc-cors
+
+
+## Spring Boot annotations
+
+
+### Links
+* https://javasterling.com/spring-boot/spring-boot-annotations/#bea
